@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Hello World';
+  title = "Hello from Bridgelabz";
+  imageUrl="../assets/Bridgelabz logo.jpg";
 }
