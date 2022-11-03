@@ -9,6 +9,8 @@ export class AppComponent {
   title = "Hello from Bridgelabz";
   imageUrl="../assets/Bridgelabz logo.jpg";
   url="https://www.bridgelabz.com/";
+  userName: string = "";
+
   ngOnInit(): void{
     this.title = "Hello from Bridgelabz"
   }
@@ -17,4 +19,5 @@ export class AppComponent {
     console.log("Save button is clicked!", $event);
     window.open(this.url, "_blank");
   }
+
 }
